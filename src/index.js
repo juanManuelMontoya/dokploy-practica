@@ -6,13 +6,14 @@ const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
   res.json({
-    mensaje: '¡Aplicación desplegada con Dokploy!',
+    mensaje: '¡Aplicación actualizada automáticamente con Dokploy!',
     institucion: 'Universidad del Quindío',
     programa: 'Ingeniería de Sistemas y Computación',
     curso: 'Administración de Infraestructura de TI',
     estudiante: 'Juan Manuel Montoya',
     app: process.env.APP_NAME || 'sin definir',
-    version: process.env.APP_VERSION || '1.0.0',
+    version: '2.0.0',
+    cambio: 'Despliegue automático - Fase 7',
     plataforma: 'Dokploy PaaS',
     fecha: new Date().toISOString()
   });

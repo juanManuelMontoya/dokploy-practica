@@ -1,6 +1,6 @@
 {
   "name": "uni-quindio-dokploy-app",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Aplicación de prueba para práctica de Dokploy",
   "main": "src/index.js",
   "scripts": {
